@@ -52,6 +52,12 @@ Then in your templates, you can recall these constants with the `{% constant ...
 	{# into the template context #}
 ```
 
+# Design and Security
+
+The `settings.py` file often holds many highly sensitive bits of information, API keys, secrets, passwords, etc...; so exposing the variables bound in `settings.py` directly to the templates would be a security mistake. However, the `settings.py` file still seems like the proper place to include any constants that should available to templates.
+
+Because of these facts, we take the whitelist approach which allows you to maintain security by having to explicitly state what constants are available to templates, but also have the convenience of being able to store site wide constants in your `settings.py` file.
+
 # Contributing
 
 Pull, fork, do whatever you'd like with the code.

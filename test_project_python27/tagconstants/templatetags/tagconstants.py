@@ -72,7 +72,7 @@ class ConstantNode(template.Node):
                 else:
                     return str(TAG_CONSTANTS[self.constant])
             except KeyError:
-                raise KeyError, "No such constant exists in TAG_CONSTANTS dictionary"
+                raise KeyError("No such constant exists in TAG_CONSTANTS dictionary")
         else:
             # fail silently in production
             try:

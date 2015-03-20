@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.py
+django_tagconstants.egg-info/PKG-INFO
+django_tagconstants.egg-info/SOURCES.txt
+django_tagconstants.egg-info/dependency_links.txt
+django_tagconstants.egg-info/requires.txt
+django_tagconstants.egg-info/top_level.txt
+tagconstants/__init__.py
+tagconstants/admin.py
+tagconstants/models.py
+tagconstants/tests.py
+tagconstants/views.py
+tagconstants/templatetags/__init__.py
+tagconstants/templatetags/tagconstants.py

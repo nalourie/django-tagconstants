@@ -3,6 +3,8 @@ django-tagconstants
 
 Define constants in your settings file, that are then made available in your templates.
 
+Visit the [github](https://github.com/nalourie/django-tagconstants).
+
 # Installation
 
 From the command line:
